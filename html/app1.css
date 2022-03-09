@@ -1,0 +1,15 @@
+body{
+    color: blueviolet;
+}
+
+h1{
+    color: blue;
+}
+
+section{
+    color: aqua;
+}
+
+button{
+    color: inherit;
+}
