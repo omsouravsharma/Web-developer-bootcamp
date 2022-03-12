@@ -14,6 +14,7 @@ border-width: 5px;
 border-color: black;
 border-style: dotted;
 box-sizing: border-box;
+padding: 20px;
 }
 
 
@@ -23,6 +24,8 @@ box-sizing: border-box;
     border-color: rgb(136, 10, 10);
     border-style: dotted;
     box-sizing: border-box;
+    padding: 02%;
+    margin: 20px;
     }
 
     
@@ -33,4 +36,31 @@ box-sizing: border-box;
     border-style: dotted;
     box-sizing: border-box;
     border-radius: 10px 100px /120px;
+    padding-left: 10;
+    }
+
+    h1{
+        background-color: bisque;
+        display: inline;
+        width: 50px;
+        background-color: rgb(39, 26, 112);
+        padding: 20px;
+        margin: 10px;
+    }
+
+    spam{
+        width: 50px;
+        background-color: aqua;
+        padding: 20px;
+        margin: 10px;
+    }
+
+    h2{
+        font-size: 2m;
+        display: inline-block ;
+        width: 50px;
+        background-color: aqua;
+        padding: 20px;
+        margin: 10px;
+            
     }
