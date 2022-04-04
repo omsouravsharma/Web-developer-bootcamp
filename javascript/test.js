@@ -24,3 +24,12 @@ else if (random > 0.5) {
 }
 
 // Nesting done 
+
+const userInput = prompt("Enter Something")
+
+if (userInput) {
+    console.log("Truthy")
+} else {
+    console.log("Falsly")
+}
+
