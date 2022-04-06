@@ -55,3 +55,48 @@ switch (day) {
 
 let Array1 = [10, 20, 30, 40]
 console.log(Array1)
+
+let a = [1, 2, 3]
+undefined
+a
+    (3)[1, 2, 3]
+a.indexOf
+ƒ indexOf() { [native code] }
+a.indexOf(3)
+2
+a.concat(4)
+    (4)[1, 2, 3, 4]
+a.concat(4)
+    (4)[1, 2, 3, 4]
+a.push
+ƒ push() { [native code] }
+a.push()
+3
+a
+    (3)[1, 2, 3]
+a.pop()
+3
+a
+    (2)[1, 2]
+a.push(5)
+3
+a
+    (3)[1, 2, 5]
+a
+    (3)[1, 2, 5]
+a.shift(1)
+1
+a
+    (2)[2, 5]
+a.unshift(1)
+3
+a
+    (3)[1, 2, 5]
+a.push(6)
+4
+a
+    (4)[1, 2, 5, 6]
+a.unshift(7)
+5
+a
+    (5)[7, 1, 2, 5, 6]
