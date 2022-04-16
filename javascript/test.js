@@ -56,8 +56,8 @@ switch (day) {
 let Array1 = [10, 20, 30, 40]
 console.log(Array1)
 
-let a = [1, 2, 3]
-undefined
+/* let a = [1, 2, 3]
+
 a
     (3)[1, 2, 3]
 a.indexOf
@@ -99,4 +99,31 @@ a
 a.unshift(7)
 5
 a
-    (5)[7, 1, 2, 5, 6]
+    (5)[7, 1, 2, 5, 6] */
+
+/* 
+- concat
+- indexof
+- reverse
+- slice 
+- splice 
+- multi dimensional array */
+
+const person = {
+    'firstname': 'sourav',
+    'lastname': 'sharma'
+}
+
+const midterm =
+{
+    dani: 'A+',
+    thomas: 79,
+    sourav: 100,
+    Ram: 1000,
+    sub: ['a', 'b', 'c', 'd']
+}
+
+const comment =
+    [{ username: "Tammy", text: "fghjkl", votes: 9 },
+    { username: "sourav", text: "fine", votes: 6789 }]
+
