@@ -126,4 +126,35 @@ const midterm =
 const comment =
     [{ username: "Tammy", text: "fghjkl", votes: 9 },
     { username: "sourav", text: "fine", votes: 6789 }]
+console.log(comment)
 
+
+for (let i = 1; i <= 10; i++) {
+    console.log(i)
+}
+
+a = [1, 2, 3, 4, 5, 6]
+
+for (let i = 0; i < 10; i++) {
+    console.log(a[i])
+}
+
+
+for (let i = 1; i <= 10; i++) {
+    console.log("i is " + i)
+    for (let j = 1; j <= 3; j++) {
+        console.log("j is" + j)
+    }
+}
+
+const seatingchart = [
+    ['K', 'E', 'N'],
+    ['G', "J", 'AN', "KE"],
+    ["JU", "SA", "JA", "ER"]
+]
+
+for (let i = 0; i < seatingchart.length; i++) {
+    console.log(seatingchart[i])
+    for (let j = 0; j < seatingchart[i].length; j++)
+        console.log(seatingchart[i][j])
+}
